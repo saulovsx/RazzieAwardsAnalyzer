@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2EFE0481-DFF1-4E66-8DD8-EAF16E26C7B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazzieAwardsAnalyzer.Domain", "Core\RazzieAwardsAnalyzer.Domain\RazzieAwardsAnalyzer.Domain.csproj", "{11DF46DC-8F3E-41AB-A327-20EF9E418CB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazzieAwardsAnalyzer.Application", "Core\RazzieAwardsAnalyzer.Application\RazzieAwardsAnalyzer.Application.csproj", "{ADEFEACC-A457-45C1-A769-7FB5C1752F9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{ABF5C90F-5298-4971-A942-B8CBEB18A229}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazzieAwardsAnalyzer.Data", "Infra\RazzieAwardsAnalyzer.Data\RazzieAwardsAnalyzer.Data.csproj", "{9B255EFE-A8C7-4A11-A55D-74D0C60B547E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazzieAwardsAnalyzer.IoC", "Infra\RazzieAwardsAnalyzer.IoC\RazzieAwardsAnalyzer.IoC.csproj", "{7974E92A-2C0A-47E6-8729-81A717CA47AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{BAD987D5-70D4-46BF-987C-AF4C8174E3CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazzieAwardsAnalyzer.API", "Presentation\RazzieAwardsAnalyzer.API\RazzieAwardsAnalyzer.API.csproj", "{11AD5265-83BE-4F80-81AB-ECA6041175DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BD1848BB-75E5-4D15-A632-51419968777E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazzieAwardsAnalyzer.Test", "Tests\RazzieAwardsAnalyzer.Test\RazzieAwardsAnalyzer.Test.csproj", "{3102EF03-1691-4F6C-AF6D-8925A038E131}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11DF46DC-8F3E-41AB-A327-20EF9E418CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11DF46DC-8F3E-41AB-A327-20EF9E418CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11DF46DC-8F3E-41AB-A327-20EF9E418CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11DF46DC-8F3E-41AB-A327-20EF9E418CB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADEFEACC-A457-45C1-A769-7FB5C1752F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEFEACC-A457-45C1-A769-7FB5C1752F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEFEACC-A457-45C1-A769-7FB5C1752F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEFEACC-A457-45C1-A769-7FB5C1752F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B255EFE-A8C7-4A11-A55D-74D0C60B547E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B255EFE-A8C7-4A11-A55D-74D0C60B547E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B255EFE-A8C7-4A11-A55D-74D0C60B547E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B255EFE-A8C7-4A11-A55D-74D0C60B547E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7974E92A-2C0A-47E6-8729-81A717CA47AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7974E92A-2C0A-47E6-8729-81A717CA47AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7974E92A-2C0A-47E6-8729-81A717CA47AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7974E92A-2C0A-47E6-8729-81A717CA47AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11AD5265-83BE-4F80-81AB-ECA6041175DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11AD5265-83BE-4F80-81AB-ECA6041175DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11AD5265-83BE-4F80-81AB-ECA6041175DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11AD5265-83BE-4F80-81AB-ECA6041175DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3102EF03-1691-4F6C-AF6D-8925A038E131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3102EF03-1691-4F6C-AF6D-8925A038E131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3102EF03-1691-4F6C-AF6D-8925A038E131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3102EF03-1691-4F6C-AF6D-8925A038E131}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11DF46DC-8F3E-41AB-A327-20EF9E418CB6} = {2EFE0481-DFF1-4E66-8DD8-EAF16E26C7B5}
+		{ADEFEACC-A457-45C1-A769-7FB5C1752F9F} = {2EFE0481-DFF1-4E66-8DD8-EAF16E26C7B5}
+		{9B255EFE-A8C7-4A11-A55D-74D0C60B547E} = {ABF5C90F-5298-4971-A942-B8CBEB18A229}
+		{7974E92A-2C0A-47E6-8729-81A717CA47AF} = {ABF5C90F-5298-4971-A942-B8CBEB18A229}
+		{11AD5265-83BE-4F80-81AB-ECA6041175DD} = {BAD987D5-70D4-46BF-987C-AF4C8174E3CA}
+		{3102EF03-1691-4F6C-AF6D-8925A038E131} = {BD1848BB-75E5-4D15-A632-51419968777E}
+	EndGlobalSection
+EndGlobal

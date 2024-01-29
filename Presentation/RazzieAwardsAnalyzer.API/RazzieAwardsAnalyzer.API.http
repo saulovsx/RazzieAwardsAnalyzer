@@ -1,0 +1,6 @@
+@RazzieAwardsAnalyzer.API_HostAddress = http://localhost:5140
+
+GET {{RazzieAwardsAnalyzer.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

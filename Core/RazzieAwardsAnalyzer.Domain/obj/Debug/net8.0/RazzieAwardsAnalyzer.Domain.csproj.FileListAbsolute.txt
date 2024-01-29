@@ -1,0 +1,11 @@
+C:\Projetos\TEXO\Core\RazzieAwardsAnalyzer.Domain\bin\Debug\net8.0\RazzieAwardsAnalyzer.Domain.deps.json
+C:\Projetos\TEXO\Core\RazzieAwardsAnalyzer.Domain\bin\Debug\net8.0\RazzieAwardsAnalyzer.Domain.dll
+C:\Projetos\TEXO\Core\RazzieAwardsAnalyzer.Domain\bin\Debug\net8.0\RazzieAwardsAnalyzer.Domain.pdb
+C:\Projetos\TEXO\Core\RazzieAwardsAnalyzer.Domain\obj\Debug\net8.0\RazzieAwardsAnalyzer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\TEXO\Core\RazzieAwardsAnalyzer.Domain\obj\Debug\net8.0\RazzieAwardsAnalyzer.Domain.AssemblyInfoInputs.cache
+C:\Projetos\TEXO\Core\RazzieAwardsAnalyzer.Domain\obj\Debug\net8.0\RazzieAwardsAnalyzer.Domain.AssemblyInfo.cs
+C:\Projetos\TEXO\Core\RazzieAwardsAnalyzer.Domain\obj\Debug\net8.0\RazzieAwardsAnalyzer.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\TEXO\Core\RazzieAwardsAnalyzer.Domain\obj\Debug\net8.0\RazzieAwardsAnalyzer.Domain.dll
+C:\Projetos\TEXO\Core\RazzieAwardsAnalyzer.Domain\obj\Debug\net8.0\refint\RazzieAwardsAnalyzer.Domain.dll
+C:\Projetos\TEXO\Core\RazzieAwardsAnalyzer.Domain\obj\Debug\net8.0\RazzieAwardsAnalyzer.Domain.pdb
+C:\Projetos\TEXO\Core\RazzieAwardsAnalyzer.Domain\obj\Debug\net8.0\ref\RazzieAwardsAnalyzer.Domain.dll

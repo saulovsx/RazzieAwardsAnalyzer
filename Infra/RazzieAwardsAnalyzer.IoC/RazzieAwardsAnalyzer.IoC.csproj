@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\RazzieAwardsAnalyzer.Domain\RazzieAwardsAnalyzer.Domain.csproj" />
+    <ProjectReference Include="..\..\Core\RazzieAwardsAnalyzer.Application\RazzieAwardsAnalyzer.Application.csproj" />
+    <ProjectReference Include="..\RazzieAwardsAnalyzer.Data\RazzieAwardsAnalyzer.Data.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

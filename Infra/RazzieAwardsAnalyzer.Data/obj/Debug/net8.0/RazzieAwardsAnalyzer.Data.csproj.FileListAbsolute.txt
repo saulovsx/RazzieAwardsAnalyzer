@@ -1,0 +1,15 @@
+C:\Projetos\TEXO\Infra\RazzieAwardsAnalyzer.Data\bin\Debug\net8.0\RazzieAwardsAnalyzer.Data.deps.json
+C:\Projetos\TEXO\Infra\RazzieAwardsAnalyzer.Data\bin\Debug\net8.0\RazzieAwardsAnalyzer.Data.dll
+C:\Projetos\TEXO\Infra\RazzieAwardsAnalyzer.Data\bin\Debug\net8.0\RazzieAwardsAnalyzer.Data.pdb
+C:\Projetos\TEXO\Infra\RazzieAwardsAnalyzer.Data\bin\Debug\net8.0\RazzieAwardsAnalyzer.Domain.dll
+C:\Projetos\TEXO\Infra\RazzieAwardsAnalyzer.Data\bin\Debug\net8.0\RazzieAwardsAnalyzer.Domain.pdb
+C:\Projetos\TEXO\Infra\RazzieAwardsAnalyzer.Data\obj\Debug\net8.0\RazzieAwardsAnalyzer.Data.csproj.AssemblyReference.cache
+C:\Projetos\TEXO\Infra\RazzieAwardsAnalyzer.Data\obj\Debug\net8.0\RazzieAwardsAnalyzer.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\TEXO\Infra\RazzieAwardsAnalyzer.Data\obj\Debug\net8.0\RazzieAwardsAnalyzer.Data.AssemblyInfoInputs.cache
+C:\Projetos\TEXO\Infra\RazzieAwardsAnalyzer.Data\obj\Debug\net8.0\RazzieAwardsAnalyzer.Data.AssemblyInfo.cs
+C:\Projetos\TEXO\Infra\RazzieAwardsAnalyzer.Data\obj\Debug\net8.0\RazzieAwardsAnalyzer.Data.csproj.CoreCompileInputs.cache
+C:\Projetos\TEXO\Infra\RazzieAwardsAnalyzer.Data\obj\Debug\net8.0\RazzieAwardsAnalyzer.Data.csproj.CopyComplete
+C:\Projetos\TEXO\Infra\RazzieAwardsAnalyzer.Data\obj\Debug\net8.0\RazzieAwardsAnalyzer.Data.dll
+C:\Projetos\TEXO\Infra\RazzieAwardsAnalyzer.Data\obj\Debug\net8.0\refint\RazzieAwardsAnalyzer.Data.dll
+C:\Projetos\TEXO\Infra\RazzieAwardsAnalyzer.Data\obj\Debug\net8.0\RazzieAwardsAnalyzer.Data.pdb
+C:\Projetos\TEXO\Infra\RazzieAwardsAnalyzer.Data\obj\Debug\net8.0\ref\RazzieAwardsAnalyzer.Data.dll
