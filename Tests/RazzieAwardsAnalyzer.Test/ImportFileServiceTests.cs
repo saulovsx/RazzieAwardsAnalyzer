@@ -1,33 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Moq;
-using RazzieAwardsAnalyzer.Application.Interfaces;
+﻿using Microsoft.EntityFrameworkCore;
 using RazzieAwardsAnalyzer.Application.Services;
-using RazzieAwardsAnalyzer.Domain.Interfaces.Repositories;
+using RazzieAwardsAnalyzer.Data.Context;
+using RazzieAwardsAnalyzer.Data.DataRepositories;
+using RazzieAwardsAnalyzer.Data.FileRepositories;
 
 namespace RazzieAwardsAnalyzer.Test
 {
     public class ImportFileServiceTests
     {
-        private readonly ImportFileService _importFileService;
-        private readonly Mock<IFileRepository> _fileRepository;
-        private readonly Mock<IRazzieAwardRepository> _razzieAwardRepository;
-
-        private readonly string _filePath = string.Empty;
-
         public ImportFileServiceTests()
+        {}
+
+        [Fact]
+        public async Task Check_Imported_Data() 
         {
-            _fileRepository = new Mock<IFileRepository>();
-            _razzieAwardRepository = new Mock<IRazzieAwardRepository>();
-            _importFileService = new ImportFileService(_fileRepository.Object, _razzieAwardRepository.Object);
+            //Arrange
+            var options = new DbContextOptionsBuilder<ApplicationDbContext>()
+                              .UseInMemoryDatabase(databaseName: "RazzieAwardsDBTest")
+                              .Options;
+            using var context = new ApplicationDbContext(options);
 
-            _filePath = Path.Combine(AppContext.BaseDirectory, "FileCSV");
+            var _razzieAwardRepository = new RazzieAwardRepository(context);
+            var fileRepository = new FileRepository(Path.Combine(AppContext.BaseDirectory, "FileCSV"));
+            var _importFileService = new ImportFileService(fileRepository, _razzieAwardRepository);
+
+            //Act
+            await _importFileService.ImportFileAsync();
+            var importedData = context.Movies.ToList();
+
+            //Assert
+            Assert.NotEmpty(importedData);
         }
-
-
 
     }
 }

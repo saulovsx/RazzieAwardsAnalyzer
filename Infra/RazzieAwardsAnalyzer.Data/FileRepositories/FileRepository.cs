@@ -9,6 +9,8 @@ namespace RazzieAwardsAnalyzer.Data.FileRepositories
         {
             _filePath = Path.Combine(AppContext.BaseDirectory, "FileCSV");
         }
+        public FileRepository(string filePath) => _filePath = filePath;
+
         public async Task<List<string>> ReturnDataCsvFileAsync()
         {
             try
