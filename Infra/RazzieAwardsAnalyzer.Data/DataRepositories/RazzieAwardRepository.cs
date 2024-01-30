@@ -11,8 +11,7 @@ namespace RazzieAwardsAnalyzer.Data.DataRepositories
 
         public async Task AddProducerAsync(Producer producer)
         {
-            await _dbContext.AddAsync(producer);
-            await _dbContext.SaveChangesAsync();
+            await _dbContext.AddAsync(producer);            
         }
         public async Task<Producer?> FindProducerByNameAsync(string name)
         {
@@ -20,8 +19,7 @@ namespace RazzieAwardsAnalyzer.Data.DataRepositories
         }
         public async Task AddMovieAsync(Movie movie)
         {
-            await _dbContext.AddAsync(movie);
-            await _dbContext.SaveChangesAsync();
+            await _dbContext.AddAsync(movie);            
         }
         public async Task<IEnumerable<Movie>> GetMoviesAsync()
         {
@@ -30,6 +28,11 @@ namespace RazzieAwardsAnalyzer.Data.DataRepositories
                                    .AsNoTracking()
                                    .ToListAsync();
             return movies;
+        }
+
+        public async Task ApplayChangesAsync()
+        {
+            await _dbContext.SaveChangesAsync();
         }
     }
 }

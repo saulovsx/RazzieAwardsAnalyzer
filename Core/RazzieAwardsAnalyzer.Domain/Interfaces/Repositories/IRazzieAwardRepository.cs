@@ -8,5 +8,6 @@ namespace RazzieAwardsAnalyzer.Domain.Interfaces.Repositories
         Task<Producer?> FindProducerByNameAsync(string name);
         Task AddMovieAsync(Movie movie);
         Task<IEnumerable<Movie>> GetMoviesAsync();
+        Task ApplayChangesAsync();
     }
 }

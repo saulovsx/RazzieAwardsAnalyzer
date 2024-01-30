@@ -57,6 +57,7 @@ namespace RazzieAwardsAnalyzer.Application.Services
 
                 foreach (var producer in producers)
                     await _razzieAwardRepository.AddProducerAsync(new Producer(producer));
+                await _razzieAwardRepository.ApplayChangesAsync();
 
                 foreach (var item in razzieAwardList)
                 {
@@ -78,6 +79,7 @@ namespace RazzieAwardsAnalyzer.Application.Services
                     };
                     await _razzieAwardRepository.AddMovieAsync(movie);
                 }
+                await _razzieAwardRepository.ApplayChangesAsync();
             }
             catch (Exception ex)
             {
