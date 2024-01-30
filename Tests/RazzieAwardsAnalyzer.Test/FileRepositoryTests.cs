@@ -11,6 +11,7 @@ namespace RazzieAwardsAnalyzer.Test
         }
 
         [Fact]
+        [Trait("Category", "FileIntegration")]
         public void Verify_File_Exisits()
         {
             var pathFile = _repository.GetLatestCsvFile();
@@ -18,6 +19,7 @@ namespace RazzieAwardsAnalyzer.Test
         }
 
         [Fact]
+        [Trait("Category", "FileIntegration")]
         public async Task Verify_File_Data_Structure()
         {
             var dataFile = await _repository.ReturnDataCsvFileAsync();

@@ -15,6 +15,7 @@ namespace RazzieAwardsAnalyzer.Test
         }
 
         [Fact]
+        [Trait("Category", "Integration")]
         public async Task Check_Return_Data_Get_Endpoint()
         {
             //Arrange

@@ -33,6 +33,7 @@ namespace RazzieAwardsAnalyzer.Test
         }
 
         [Fact]
+        [Trait("Category", "Integration")]
         public async Task Check_Int_Year_Data_Consistency()
         {
             //Arrange
@@ -54,6 +55,7 @@ namespace RazzieAwardsAnalyzer.Test
         }
 
         [Fact]
+        [Trait("Category", "Integration")]
         public async Task Check_Bool_Winner_Data_Consistency()
         {
             //Arrange
