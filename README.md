@@ -15,7 +15,7 @@ Foram adotados os princípios SOLID e práticas de Clean Code ao longo do desenv
 **Configuração do Projeto**
 
 - Clone o repositório para a sua máquina local usando o comando:
- `git clone [URL_DO_REPOSITORIO]`
+ `git clone https://github.com/saulovsx/RazzieAwardsAnalyzer.git`
 - Abra a solução do projeto com o Visual Studio.
 - Certifique-se de que o projeto está configurado para usar o .NET 8.
 - Coloque o arquivo CSV contendo os dados para importação na pasta FileCSV na raiz do projeto.
