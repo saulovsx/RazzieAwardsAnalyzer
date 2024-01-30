@@ -46,3 +46,8 @@ using (var scope = scopeFactory?.CreateScope())
 }
 
 app.Run();
+
+/// <summary>
+/// Extensão de classe Program para testes de integração.
+/// </summary>
+public partial class Program { }
