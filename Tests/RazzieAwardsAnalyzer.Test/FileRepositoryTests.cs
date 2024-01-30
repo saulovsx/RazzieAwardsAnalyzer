@@ -1,9 +1,4 @@
 ﻿using RazzieAwardsAnalyzer.Data.FileRepositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RazzieAwardsAnalyzer.Test
 {
@@ -20,6 +15,15 @@ namespace RazzieAwardsAnalyzer.Test
         {
             var pathFile = _repository.GetLatestCsvFile();
             Assert.NotNull(pathFile);
+        }
+
+        [Fact]
+        public void Verify_File_Data()
+        {
+            var dataFile = _repository.ReturnDataCsvFileAsync().Result;
+            var dataLine = dataFile[0].Split(';');
+
+            Assert.True(dataLine[0] == "year" && dataLine[1] == "title" && dataLine[2] == "studios" && dataLine[3] == "producers" && dataLine[4] == "winner");
         }
     }
 }
