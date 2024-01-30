@@ -18,12 +18,15 @@ namespace RazzieAwardsAnalyzer.Test
         }
 
         [Fact]
-        public void Verify_File_Data()
+        public async Task Verify_File_Data_Structure()
         {
-            var dataFile = _repository.ReturnDataCsvFileAsync().Result;
+            var dataFile = await _repository.ReturnDataCsvFileAsync();
             var dataLine = dataFile[0].Split(';');
 
-            Assert.True(dataLine[0] == "year" && dataLine[1] == "title" && dataLine[2] == "studios" && dataLine[3] == "producers" && dataLine[4] == "winner");
+            Assert.True(dataLine[0] == "year" && dataLine[1] == "title" 
+                                              && dataLine[2] == "studios" 
+                                              && dataLine[3] == "producers" 
+                                              && dataLine[4] == "winner");
         }
     }
 }
