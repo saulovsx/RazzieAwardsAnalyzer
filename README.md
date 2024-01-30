@@ -2,6 +2,7 @@
 Esta API RESTful permite a leitura da lista de indicados e vencedores da categoria Pior Filme do Golden Raspberry Awards.
 
 **Arquitetura e Práticas de Programação**
+
 Este projeto foi desenvolvido seguindo os princípios da **Clean Architecture**, visando a separação de preocupações, a independência de frameworks, e a facilidade de manutenção e testabilidade.
 Foram adotados os princípios SOLID e práticas de Clean Code ao longo do desenvolvimento para garantir que o código seja robusto, fácil de entender e manter.
 
@@ -19,13 +20,8 @@ Foram adotados os princípios SOLID e práticas de Clean Code ao longo do desenv
 - Abra a solução do projeto com o Visual Studio.
 - Certifique-se de que o projeto está configurado para usar o .NET 8.
 - Coloque o arquivo CSV contendo os dados para importação na pasta FileCSV na raiz do projeto.
-- Executando a Aplicação
-
-**Para executar a aplicação:**
-
 - No Visual Studio, configure o projeto **RazzieAwardsAnalyzer.API** como o projeto de inicialização.
-- Execute a aplicação usando o botão 'Iniciar' ou pressionando F5.
-- A API agora estará rodando e pronta para receber requisições.
+- Executando a Aplicação
 
 **Para executar os testes de integração:**
 
