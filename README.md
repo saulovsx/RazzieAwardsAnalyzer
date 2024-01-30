@@ -12,7 +12,7 @@ Foram adotados os princípios SOLID e práticas de Clean Code ao longo do desenv
 
 - .NET 8: Framework utilizado para o desenvolvimento da API.
 - Entity Framework In-Memory: Banco de dados em memória utilizado para testes e armazenamento de dados.
-- CSV File: O arquivo CSV para importação dos dados, deve estar dentro da pasta **FileCSV**. A pasta de ser copiada no mesmo diretório do executável do projeto RazzieAwardsAnalyzer.API.
+- CSV File: O arquivo CSV para importação dos dados deve estar dentro da pasta **FileCSV**. A pasta deve ser copiada no mesmo diretório do executável do projeto RazzieAwardsAnalyzer.API.
   Exemplo: `C:\MyProjects\RazzieAwardsAnalyzer\Presentation\RazzieAwardsAnalyzer.API\bin\Debug\net8.0\FileCSV`.
 - Testes de Integração: Implementados com xUnit e Moq.
 
@@ -28,7 +28,7 @@ Foram adotados os princípios SOLID e práticas de Clean Code ao longo do desenv
 
 **Para executar os testes de integração:**
 
-- CSV File: O arquivo CSV para importação dos dados, deve estar dentro da pasta **FileCSV**. A pasta de ser copiada no mesmo diretório do executável do projeto teste. Exemplo: `C:\MyProjects\RazzieAwardsAnalyzer\Tests\RazzieAwardsAnalyzer.Test\bin\Debug\net8.0\FileCSV`.
+- CSV File: O arquivo CSV para importação dos dados deve estar dentro da pasta **FileCSV**. A pasta deve ser copiada no mesmo diretório do executável do projeto teste. Exemplo: `C:\MyProjects\RazzieAwardsAnalyzer\Tests\RazzieAwardsAnalyzer.Test\bin\Debug\net8.0\FileCSV`.
 - No Visual Studio, abra o Test Explorer.
 - Encontre os testes de integração, que estão localizados no projeto de testes que usa xUnit.
 - Execute os testes através do Test Explorer.
