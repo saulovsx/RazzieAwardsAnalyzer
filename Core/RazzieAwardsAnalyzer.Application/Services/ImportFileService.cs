@@ -19,7 +19,7 @@ namespace RazzieAwardsAnalyzer.Application.Services
                 foreach (var line in dataFile)
                 {
                     var dataLine = line.Split(';');
-                    var razzieAward = RetrunRazzieAward(dataLine);
+                    var razzieAward = ReturnRazzieAward(dataLine);
                     razzieAwardList.Add(razzieAward);
                 }
                 await CreateRazzieAward(razzieAwardList);
@@ -30,7 +30,7 @@ namespace RazzieAwardsAnalyzer.Application.Services
             }            
         }
 
-        private static RazzieAwardCsvDTO RetrunRazzieAward(string[] dataLine)
+        private static RazzieAwardCsvDTO ReturnRazzieAward(string[] dataLine)
         {
             RazzieAwardCsvDTO razzieAward = new ()
             { 
