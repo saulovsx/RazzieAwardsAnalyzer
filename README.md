@@ -12,8 +12,6 @@ Foram adotados os princípios SOLID e práticas de Clean Code ao longo do desenv
 
 - .NET 8: Framework utilizado para o desenvolvimento da API.
 - Entity Framework In-Memory: Banco de dados em memória utilizado para testes e armazenamento de dados.
-- CSV File: O arquivo CSV para importação dos dados deve estar dentro da pasta **FileCSV**. A pasta deve ser copiada no mesmo diretório do executável do projeto RazzieAwardsAnalyzer.API.
-  Exemplo: `C:\MyProjects\RazzieAwardsAnalyzer\Presentation\RazzieAwardsAnalyzer.API\bin\Debug\net8.0\FileCSV`.
 - Testes de Integração: Implementados com xUnit e Moq.
 
 **Configuração do Projeto**
@@ -22,13 +20,13 @@ Foram adotados os princípios SOLID e práticas de Clean Code ao longo do desenv
  `git clone https://github.com/saulovsx/RazzieAwardsAnalyzer.git`
 - Abra a solução do projeto com o Visual Studio.
 - Certifique-se de que o projeto está configurado para usar o .NET 8.
-- Coloque o arquivo CSV contendo os dados para importação na pasta FileCSV na raiz do projeto.
+- Copie o arquivo CSV contendo os dados para importação na pasta **FileCSV** na raiz do projeto. O arquivo será copiado automaticamente para o diretório de saída do projeto RazzieAwardsAnalyzer.API.
 - No Visual Studio, configure o projeto **RazzieAwardsAnalyzer.API** como o projeto de inicialização.
 - Executando a Aplicação
 
 **Para executar os testes de integração:**
 
-- CSV File: O arquivo CSV para importação dos dados deve estar dentro da pasta **FileCSV**. A pasta deve ser copiada no mesmo diretório do executável do projeto teste. Exemplo: `C:\MyProjects\RazzieAwardsAnalyzer\Tests\RazzieAwardsAnalyzer.Test\bin\Debug\net8.0\FileCSV`.
+- Copie o arquivo CSV contendo os dados para importação na pasta **FileCSV** na raiz do projeto. O arquivo será copiado automaticamente para o diretório de saída do projeto RazzieAwardsAnalyzer.Test.
 - No Visual Studio, abra o Test Explorer.
 - Encontre os testes de integração, que estão localizados no projeto de testes que usa xUnit.
 - Execute os testes através do Test Explorer.
