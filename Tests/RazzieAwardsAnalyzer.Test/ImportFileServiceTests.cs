@@ -21,7 +21,7 @@ namespace RazzieAwardsAnalyzer.Test
             using var context = new ApplicationDbContext(options);
 
             var _razzieAwardRepository = new RazzieAwardRepository(context);
-            var fileRepository = new FileRepository(Path.Combine(AppContext.BaseDirectory, "FileCSV"));
+            var fileRepository = new FileRepository(Path.Combine(AppContext.BaseDirectory));
             var _importFileService = new ImportFileService(fileRepository, _razzieAwardRepository);
 
             //Act
@@ -43,7 +43,7 @@ namespace RazzieAwardsAnalyzer.Test
             using var context = new ApplicationDbContext(options);
 
             var _razzieAwardRepository = new RazzieAwardRepository(context);
-            var fileRepository = new FileRepository(Path.Combine(AppContext.BaseDirectory, "FileCSV"));
+            var fileRepository = new FileRepository(Path.Combine(AppContext.BaseDirectory));
             var _importFileService = new ImportFileService(fileRepository, _razzieAwardRepository);
 
             //Act
@@ -65,7 +65,7 @@ namespace RazzieAwardsAnalyzer.Test
             using var context = new ApplicationDbContext(options);
 
             var _razzieAwardRepository = new RazzieAwardRepository(context);
-            var fileRepository = new FileRepository(Path.Combine(AppContext.BaseDirectory, "FileCSV"));
+            var fileRepository = new FileRepository(Path.Combine(AppContext.BaseDirectory));
             var _importFileService = new ImportFileService(fileRepository, _razzieAwardRepository);
 
             //Act

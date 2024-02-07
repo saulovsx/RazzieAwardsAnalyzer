@@ -7,7 +7,7 @@ namespace RazzieAwardsAnalyzer.Data.FileRepositories
         private readonly string _filePath = string.Empty;
         public FileRepository()
         {
-            _filePath = Path.Combine(AppContext.BaseDirectory, "FileCSV");
+            _filePath = Path.Combine(AppContext.BaseDirectory);
         }
         public FileRepository(string filePath) => _filePath = filePath;
 

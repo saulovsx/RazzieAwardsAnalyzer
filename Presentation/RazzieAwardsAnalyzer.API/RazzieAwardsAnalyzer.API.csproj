@@ -20,4 +20,11 @@
     <ProjectReference Include="..\..\Infra\RazzieAwardsAnalyzer.IoC\RazzieAwardsAnalyzer.IoC.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include="..\..\FileCSV\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+
 </Project>
